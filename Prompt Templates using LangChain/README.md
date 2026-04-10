@@ -21,5 +21,6 @@ This project replaces hardcoded prompts with structured templates using `PromptT
 ## 🔄 Workflow
 User Input → Validation → Prompt Template → Dynamic Prompt Generation → Output  
 
-## 👩‍💻 Author
-**Nandini M**
+---
+
+💡 *This project highlights the shift from static prompt writing to building scalable and reusable prompt engineering systems for real-world AI applications.*
