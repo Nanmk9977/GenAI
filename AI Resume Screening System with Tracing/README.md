@@ -36,6 +36,7 @@ This project implements an **AI-powered Resume Screening System** that evaluates
 
 ```
 Resume → Skill Extraction → Matching → Scoring → Explanation → Tracing
+```
 
 ---
 
