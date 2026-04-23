@@ -10,18 +10,24 @@ A **Retrieval-Augmented Generation (RAG)** system that answers user queries from
 - Prevents hallucination  
 
 ## ⚙️ Tech Stack
-Python, LangChain, LangGraph, ChromaDB, Streamlit
+Python, LangChain, LangGraph, ChromaDB, Google Colab
 
 ## 🔄 Workflow
-PDF → Chunking → Embeddings → Vector DB → Retrieval → LLM → Response / HITL
+PDF → Chunking → Embeddings → Vector DB → Retrieval → LLM → Decision → Response / HITL
 
-## 🚨 HITL
-Escalates queries when:
-- No relevant context  
-- Low confidence  
-- Out-of-domain questions  
+## ▶️ Run (Colab)
+- Open the notebook in Google Colab  
+- Upload PDF  
+- Run all cells step-by-step  
+- Test using sample queries  
 
-## ▶️ Run
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+## 📌 Conclusion
+This project demonstrates an effective implementation of a RAG-based system for intelligent query answering.  
+It improves accuracy by retrieving relevant context instead of relying only on generation.  
+The use of LangGraph enables structured workflow and decision-making.  
+
+HITL ensures safe handling of uncertain or out-of-domain queries.  
+Overall, it presents a scalable and reliable approach for real-world AI applications.  
+
+## 🙏 Acknowledgment
+Thanks to **Innomatics Research Labs** for guidance.
