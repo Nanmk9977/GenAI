@@ -7,7 +7,9 @@ A **Retrieval-Augmented Generation (RAG)** system that answers user queries from
 - Context-aware answer generation  
 - LangGraph workflow for routing  
 - Human-in-the-Loop (HITL) escalation  
-- Prevents hallucination  
+- Prevents hallucination
+  
+## 🔹vedio demo: https://drive.google.com/file/d/1HgvpfLnpuORPNHjMGI8hbdCCkF2eWdkk/view?usp=drive_link
 
 ## ⚙️ Tech Stack
 Python, LangChain, LangGraph, ChromaDB, Google Colab
